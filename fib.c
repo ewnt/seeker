@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 static  int a=-1, b=1, next;
-fib(int num)
+fib()
 {
               next=a+b;
               a=b;
