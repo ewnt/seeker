@@ -25,11 +25,11 @@ fun1(int r)
     static int rem, sum=0, u;
     if (r)
         {
-            u=u-1;
+              u=u-1;
               rem=r%10;
-    sum=sum*10+rem;
-    r=r/10;
-    fun1(r);
+              sum=sum*10+rem;
+              r=r/10;
+              fun1(r);
         }    
  
     if (r==0)
