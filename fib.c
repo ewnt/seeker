@@ -7,13 +7,13 @@ int main(int argc, char const *argv[])
     printf("the fib numbers are");
     for (int i = 0; i < num; ++i)
     {
-        printf(" %d ", fib());
+        printf(" %d ", fib(i));
     }
     return 0;
 }
-static  int a=-1, b=1, next;
-fib()
-{
+
+fib(int i)
+{             static int a=-1, b=1, next;
               next=a+b;
               a=b;
               b=next;
